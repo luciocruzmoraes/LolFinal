@@ -1,0 +1,25 @@
+%%writefile .gitignore
+# Ignorar datasets pesados
+datasets/raw/
+datasets/processed/
+
+# Modelos pesados
+*.h5
+*.keras
+*.pt
+*.pth
+*.ckpt
+
+# Logs
+logs/
+*.csv
+
+# Checkpoints
+checkpoints/
+
+# Arquivos temporários
+__pycache__/
+*.pyc
+
+# Colab e Jupyter
+.ipynb_checkpoints/
