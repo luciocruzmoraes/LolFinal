@@ -1,25 +1,89 @@
-%%writefile .gitignore
-# Ignorar datasets pesados
-datasets/raw/
-datasets/processed/
+# =======================================
+# IGNORAR DATASETS (exigência do professor)
+# =======================================
+datasets/
+*.jpg
+*.jpeg
+*.png
+*.webp
 
-# Modelos pesados
+# =======================================
+# CHECKPOINTS PESADOS DO TENSORFLOW
+# =======================================
+saved_model/
+*.pb
+*.pbtxt
+variables/
+assets/
+*.ckpt
+*.ckpt.*
+
+# Modelos grandes (opcional)
 *.h5
 *.keras
-*.pt
-*.pth
-*.ckpt
+*.tflite
 
-# Logs
-logs/
-*.csv
+# =======================================
+# GOOGLE COLAB / NOTEBOOKS TEMPORÁRIOS
+# =======================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
 
-# Checkpoints
-checkpoints/
+# Cache de sessão ou arquivos gerados automaticamente
+*.npz
+*.npy
+*.pkl
+*.pickle
 
-# Arquivos temporários
+# =======================================
+# PYTHON CACHE
+# =======================================
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Colab e Jupyter
-.ipynb_checkpoints/
+# =======================================
+# LOGS E ARQUIVOS TEMPORÁRIOS
+# =======================================
+logs/
+*.log
+*.txt
+*.tmp
+
+# =======================================
+# SISTEMA OPERACIONAL / EDITORES
+# =======================================
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+.icon?
+
+# =======================================
+# AMBIENTES VIRTUAIS
+# =======================================
+env/
+venv/
+ENV/
+env.bak/
+
+# =======================================
+# PROJETO
+# =======================================
+
+# Evitar backup do Google Drive
+drive/
+
+# Qualquer pasta de export temporária
+export/
+outputs/
+temp/
+tmp/
