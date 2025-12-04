@@ -8,7 +8,7 @@ Uma breve descrição sobre o que esse projeto faz e para quem ele é
 ## Links
 
 - **Repositório:** [https://github.com/luciocruzmoraes/LolFinal.git](https://github.com/luciocruzmoraes/LolFinal.git)
-- **Vídeo de Apresentação:** [https://drive.google.com/file/d/1Di1SPnjl8JgSpBpnU-Vw2LzFTelFN8kN/view?usp=sharing)
+- **Vídeo de Apresentação:** [Video](https://drive.google.com/file/d/1Di1SPnjl8JgSpBpnU-Vw2LzFTelFN8kN/view?usp=sharing)
 - **Dataset:** [https://www.kaggle.com/datasets/alihabibullah/league-of-legends-skin-splash-art-collection](https://www.kaggle.com/datasets/alihabibullah/league-of-legends-skin-splash-art-collection)
 
 ## Abordagem
